@@ -85,7 +85,7 @@ class RoleSelectionScreen extends StatelessWidget {
             title: 'Super Admin',
             subtitle: 'Manage schools and subscriptions',
           ),
-          RoleCard(
+          const RoleCard(
             icon: Icons.school,
             title: 'School Admin',
             subtitle: 'Manage students, fees and attendance',
@@ -95,7 +95,7 @@ class RoleSelectionScreen extends StatelessWidget {
             title: 'Parent',
             subtitle: 'View child, fees, notices and transport',
           ),
-          RoleCard(
+         const RoleCard(
             icon: Icons.directions_bus,
             title: 'Driver',
             subtitle: 'Manage routes and student pickup/drop',
